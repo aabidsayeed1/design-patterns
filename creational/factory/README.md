@@ -24,6 +24,18 @@ However, the existing code heavily relies on the Truck class, making it challeng
 
 The given example uses a Factory Pattern to seamlessly incorporate new transportation types like Ships into the app, maintaining code simplicity and ensuring easy scalability. 🚢✨
 
+## Pattern Structure 🧩
+
+- <b>Product:</b> Represents the abstract product type, defining a common interface for all transportation modes, ensuring they have essential methods like deliver.
+
+- <b>Concrete Products:</b> These are specific implementations of the Product interface, representing distinct transportation types like Truck or Ship. They determine how the deliver method works for their particular mode.
+
+- <b>Creator:</b> This class serves as the creator, declaring a factory method called createTransport that returns Product objects. Subclasses of Creator, such as RoadLogistics and SeaLogistics, override this method to create specific transport variants.
+
+- <b>Concrete Creators: </b> Subclasses of Creator, like RoadLogistics and SeaLogistics, implement the createTransport method to produce concrete transport types: trucks or ships, respectively.
+
+
+
 
 ## Example Source 📚
 The example is adapted from Refactoring Guru - a valuable resource for learning about software design patterns. <br>

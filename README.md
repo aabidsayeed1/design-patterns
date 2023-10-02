@@ -14,7 +14,8 @@
 <br>
 
 ### 🏗️ Creational Patterns
-- #### [Factory](/creational/factory)
+- [Factory](/creational/factory)
+- [Abstract Factory](/creational/abstract_factory)
 
 <br>
 
