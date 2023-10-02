@@ -10,8 +10,17 @@
 
 ## Table of Contents 📜
 ### 🕹️ Behavioural Patterns
+
+<br>
+
 ### 🏗️ Creational Patterns
+- #### [Factory](/creational/factory)
+
+<br>
+
 ### 🧱 Structural Patterns
+<br>
+
 
 ## Source of Examples 📚
 All the design pattern examples in this repository have been sourced and adapted from the Refactoring Guru catalog. 
