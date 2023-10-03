@@ -4,7 +4,7 @@ class Circle implements Shape {
   int x;
   int y;
   String color;
-  int radius;
+  double radius;
 
   Circle({
     required this.x,
