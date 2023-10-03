@@ -10,7 +10,7 @@ The Abstract Factory Pattern is a clever coding concept that:
 
 - Encourages clients to work with abstract interfaces for a clean and flexible design.
 
-
+<br>
 
 ### 💡 When to Use It?
 
@@ -19,7 +19,7 @@ The Abstract Factory Pattern is a clever coding concept that:
 - You frequently add new objects or families without changing existing code.
 - Runtime switching between object families is required.
 
-
+<br>
 
 ## Example - Furniture Shop Simulator 🪑🛋️
 
@@ -29,6 +29,7 @@ The challenge? Ensuring that when customers buy a set of furniture, like a Moder
 
 Here's where the Abstract Factory Pattern comes to the rescue! 🪄 It ensures that each family (e.g., chairs, sofas) has a consistent style across its products.
 
+<br>
 
 ## Pattern Structure 🧩
 
@@ -40,6 +41,7 @@ Here's where the Abstract Factory Pattern comes to the rescue! 🪄 It ensures t
 
 **Concrete Factories:** For each product family variant (Modern, Victorian), we create concrete factory classes (ModernFurnitureFactory, VictorianFurnitureFactory) that implement the abstract factory interface.
 
+<br>
 
 ## Example Source 📚
 The example in this section is adapted from Refactoring Guru - a valuable resource for learning about software design patterns.
