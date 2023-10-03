@@ -1,5 +1,3 @@
-part of 'main.dart';
-
 abstract class Logistics {
   void deliverPackage();
 }

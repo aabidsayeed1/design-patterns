@@ -1,4 +1,4 @@
-part of 'main.dart';
+part of 'furniture.dart';
 
 abstract class CoffeeTable {
   void placeCoffee();
@@ -7,20 +7,20 @@ abstract class CoffeeTable {
 class ModernCoffeeTable implements CoffeeTable {
   @override
   void placeCoffee() {
-    print('Placing coffee on a modern coffe table');
+    print('Placing coffee on a modern coffee table');
   }
 }
 
 class VictorianCoffeeTable implements CoffeeTable {
   @override
   void placeCoffee() {
-    print('Placing coffee on a victorian coffe table');
+    print('Placing coffee on a victorian coffee table');
   }
 }
 
 class ArtDecoCoffeeTable implements CoffeeTable {
   @override
   void placeCoffee() {
-    print('Placing coffee on an art deco coffe table');
+    print('Placing coffee on an art deco coffee table');
   }
 }

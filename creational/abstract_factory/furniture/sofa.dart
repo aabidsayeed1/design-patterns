@@ -1,4 +1,4 @@
-part of 'main.dart';
+part of 'furniture.dart';
 
 abstract class Sofa {
   void relaxOn();

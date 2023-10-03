@@ -1,4 +1,4 @@
-part of 'main.dart';
+import 'house.dart';
 
 abstract class HouseBuilder {
   void buildWalls();

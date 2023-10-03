@@ -1,4 +1,4 @@
-part of 'main.dart';
+import 'house_builder.dart';
 
 class HouseDirector {
   HouseBuilder builder;

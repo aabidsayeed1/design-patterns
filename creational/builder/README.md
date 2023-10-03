@@ -33,13 +33,13 @@ This example will demonstrate how the Builder Pattern comes to the rescue, allow
 
 ## Pattern Structure 🧩
 
-**Product:** Represents the complex object that we aim to construct using the Builder Pattern, such as a House. It contains attributes and properties that need to be initialized during construction.
+- **Product:** Represents the complex object that we aim to construct using the Builder Pattern, such as a House. It contains attributes and properties that need to be initialized during construction.
 
-**Builder:** An interface defining individual construction steps required to assemble the Product. It abstracts away complex initialization and allows for various Product variations.
+- **Builder:** An interface defining individual construction steps required to assemble the Product. It abstracts away complex initialization and allows for various Product variations.
 
-**Concrete Builders:** Concrete classes implementing the Builder interface, providing specific implementations for building distinct variations of the Product. For example, ConcreteHouseBuilder and WoodenHouseBuilder.
+- **Concrete Builders:** Concrete classes implementing the Builder interface, providing specific implementations for building distinct variations of the Product. For example, ConcreteHouseBuilder and WoodenHouseBuilder.
 
-**Director (Optional):** A class that orchestrates the construction process, determining the sequence of building steps to create a particular configuration of the Product. While optional, it simplifies the creation of complex objects by guiding the Builder. Clients can also interact directly with the Builder if preferred.
+- **Director (Optional):** A class that orchestrates the construction process, determining the sequence of building steps to create a particular configuration of the Product. While optional, it simplifies the creation of complex objects by guiding the Builder. Clients can also interact directly with the Builder if preferred.
 
 <br>
 

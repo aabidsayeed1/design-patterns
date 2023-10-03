@@ -14,6 +14,7 @@
 - [Factory](/creational/factory)
 - [Abstract Factory](/creational/abstract_factory)
 - [Builder](/creational/builder)
+- [Prototype](/creational/prototype)
 
 <br>
 

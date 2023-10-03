@@ -31,13 +31,13 @@ Here's where the Abstract Factory Pattern comes to the rescue! 🪄 It ensures t
 
 ## Pattern Structure 🧩
 
-**Abstract Product Interfaces:** We define interfaces for each product type (Chair, Sofa, CoffeeTable) so that all variants adhere to the same rules.
+- **Abstract Product Interfaces:** We define interfaces for each product type (Chair, Sofa, CoffeeTable) so that all variants adhere to the same rules.
 
-**Concrete Products:** We implement these interfaces for various style variants, such as ModernChair or VictorianSofa.
+- **Concrete Products:** We implement these interfaces for various style variants, such as ModernChair or VictorianSofa.
 
-**Abstract Factory:** We create an abstract factory interface with methods for creating each product type (createChair, createSofa, createCoffeeTable).
+- **Abstract Factory:** We create an abstract factory interface with methods for creating each product type (createChair, createSofa, createCoffeeTable).
 
-**Concrete Factories:** For each product family variant (Modern, Victorian), we create concrete factory classes (ModernFurnitureFactory, VictorianFurnitureFactory) that implement the abstract factory interface.
+- **Concrete Factories:** For each product family variant (Modern, Victorian), we create concrete factory classes (ModernFurnitureFactory, VictorianFurnitureFactory) that implement the abstract factory interface.
 
 <br>
 

@@ -1,4 +1,4 @@
-part of 'main.dart';
+import 'furniture/furniture.dart';
 
 abstract class FurnitureFactory {
   Chair createChair();
