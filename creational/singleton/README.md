@@ -8,6 +8,7 @@ The Singleton Design Pattern is a creational coding concept that:
 - Guarantees that the same instance is shared across the entire application.
 - Offers strict control over the instantiation of objects, preventing multiple instances.
 
+<br>
 
 ### When to Use It? 💡
 
@@ -25,7 +26,7 @@ Or just don't. Use dependency injection instead. 🤷‍♀️
 
 Imagine you're building a data-driven application where multiple components need access to a database connection. To maintain consistency and prevent multiple database connections, you apply the Singleton Pattern.
 
-This pattern ensures that all parts of your application share the same database connection instance, preventing unnecessary overhead. 📈💾
+This pattern ensures that all parts of your application share the same database connection instance, preventing unnecessary overhead. 📈
 
 <br>
 
