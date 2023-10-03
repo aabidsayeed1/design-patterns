@@ -9,13 +9,15 @@
 
 
 ## Table of Contents 📜
-### 🕹️ Behavioural Patterns
-
-<br>
 
 ### 🏗️ Creational Patterns
 - [Factory](/creational/factory)
 - [Abstract Factory](/creational/abstract_factory)
+- [Builder](/creational/builder)
+
+<br>
+
+### 🕹️ Behavioural Patterns
 
 <br>
 
