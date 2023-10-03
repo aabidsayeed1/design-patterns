@@ -33,13 +33,13 @@ The given example uses a Factory Pattern to seamlessly incorporate new transport
 
 ## Pattern Structure 🧩
 
-**Product:** Represents the abstract product type, defining a common interface for all transportation modes, ensuring they have essential methods like deliver.
+- **Product:** Represents the abstract product type, defining a common interface for all transportation modes, ensuring they have essential methods like deliver.
 
-**Concrete Products:** These are specific implementations of the Product interface, representing distinct transportation types like Truck or Ship. They determine how the deliver method works for their particular mode.
+- **Concrete Products:** These are specific implementations of the Product interface, representing distinct transportation types like Truck or Ship. They determine how the deliver method works for their particular mode.
 
-**Creator:** This class serves as the creator, declaring a factory method called createTransport that returns Product objects. Subclasses of Creator, such as RoadLogistics and SeaLogistics, override this method to create specific transport variants.
+- **Creator:** This class serves as the creator, declaring a factory method called createTransport that returns Product objects. Subclasses of Creator, such as RoadLogistics and SeaLogistics, override this method to create specific transport variants.
 
-**Concrete Creators:** Subclasses of Creator, like RoadLogistics and SeaLogistics, implement the createTransport method to produce concrete transport types: trucks or ships, respectively.
+- **Concrete Creators:** Subclasses of Creator, like RoadLogistics and SeaLogistics, implement the createTransport method to produce concrete transport types: trucks or ships, respectively.
 
 <br>
 
