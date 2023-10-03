@@ -1,4 +1,4 @@
-part of 'factory.dart';
+part of 'main.dart';
 
 abstract class LogisticsFactory {
   Logistics createLogistics();

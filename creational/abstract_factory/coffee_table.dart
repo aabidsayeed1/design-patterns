@@ -1,4 +1,4 @@
-part of 'abstract_factory.dart';
+part of 'main.dart';
 
 abstract class CoffeeTable {
   void placeCoffee();
