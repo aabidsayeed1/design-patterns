@@ -7,6 +7,8 @@ The Prototype Design Pattern is a versatile coding concept that:
 - Frees your code from being dependent on concrete classes, making it ideal for object copying and cloning.
 - Simplifies the creation of objects, especially in scenarios where multiple variations are needed.
 
+<br>
+
 ### When to Use It? 💡
 
 - You need to create copies of objects without knowing their concrete classes.
