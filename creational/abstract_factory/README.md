@@ -5,7 +5,9 @@
 The Abstract Factory Pattern is a clever coding concept that:
 
 - Helps you create families of related objects without worrying about their concrete classes.
+
 - Ensures that objects within the same family work seamlessly together.
+
 - Encourages clients to work with abstract interfaces for a clean and flexible design.
 
 
@@ -30,13 +32,13 @@ Here's where the Abstract Factory Pattern comes to the rescue! 🪄 It ensures t
 
 ## Pattern Structure 🧩
 
-- <b>Abstract Product Interfaces:</b> We define interfaces for each product type (Chair, Sofa, CoffeeTable) so that all variants adhere to the same rules.
+**Abstract Product Interfaces:** We define interfaces for each product type (Chair, Sofa, CoffeeTable) so that all variants adhere to the same rules.
 
-- <b>Concrete Products:</b> We implement these interfaces for various style variants, such as ModernChair or VictorianSofa.
+**Concrete Products:** We implement these interfaces for various style variants, such as ModernChair or VictorianSofa.
 
-- <b>Abstract Factory:</b> We create an abstract factory interface with methods for creating each product type (createChair, createSofa, createCoffeeTable).
+**Abstract Factory:** We create an abstract factory interface with methods for creating each product type (createChair, createSofa, createCoffeeTable).
 
-- <b>Concrete Factories:</b> For each product family variant (Modern, Victorian), we create concrete factory classes (ModernFurnitureFactory, VictorianFurnitureFactory) that implement the abstract factory interface.
+**Concrete Factories:** For each product family variant (Modern, Victorian), we create concrete factory classes (ModernFurnitureFactory, VictorianFurnitureFactory) that implement the abstract factory interface.
 
 
 ## Example Source 📚
