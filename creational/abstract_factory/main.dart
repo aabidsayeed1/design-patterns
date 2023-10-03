@@ -1,8 +1,4 @@
-part 'chair.dart';
-part 'coffee_table.dart';
-part 'sofa.dart';
-
-part 'furniture_factory.dart';
+import 'furniture_factory.dart';
 
 void main() {
   final modernFactory = ModernFurnitureFactory();
