@@ -1,5 +1,5 @@
-part 'creator.dart';
-part 'product.dart';
+import 'creator.dart';
+import 'product.dart';
 
 void main() {
   LogisticsFactory logisticsFactory = RoadLogisticsFactory();

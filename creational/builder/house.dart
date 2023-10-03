@@ -1,5 +1,3 @@
-part of 'main.dart';
-
 class House {
   String? walls;
   String? doors;

@@ -1,6 +1,6 @@
-part 'house.dart';
-part 'house_builder.dart';
-part 'house_director.dart';
+import 'house.dart';
+import 'house_builder.dart';
+import 'house_director.dart';
 
 void main() {
   // builders

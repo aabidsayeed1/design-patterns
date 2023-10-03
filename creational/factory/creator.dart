@@ -1,4 +1,4 @@
-part of 'main.dart';
+import 'product.dart';
 
 abstract class LogisticsFactory {
   Logistics createLogistics();
