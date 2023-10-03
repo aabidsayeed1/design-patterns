@@ -5,9 +5,7 @@
 The Abstract Factory Pattern is a clever coding concept that:
 
 - Helps you create families of related objects without worrying about their concrete classes.
-
 - Ensures that objects within the same family work seamlessly together.
-
 - Encourages clients to work with abstract interfaces for a clean and flexible design.
 
 <br>

@@ -5,9 +5,7 @@
 The Builder Pattern is a versatile creational design pattern that:
 
 - Allows you to construct complex objects step by step, separating the construction process from the representation.
-
 - Provides a flexible way to create different types and representations of an object using the same construction code.
-
 - Helps manage objects with optional parameters in an organized manner, eliminating the need for a "telescoping constructor."
 
 <br>
@@ -15,9 +13,7 @@ The Builder Pattern is a versatile creational design pattern that:
 ### 💡 When to Use It?
 
 - You have a complex object that requires step-by-step initialization of many fields and nested objects.
-
 - You want to create different representations of an object without having to create a large number of subclasses.
-
 - You need to construct objects with optional parameters in a flexible and readable way.
 
 

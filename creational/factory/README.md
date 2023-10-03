@@ -5,18 +5,15 @@
 The Factory Method is a neat coding concept that:
 
 - Defines an interface (or an abstract class) for creating objects.
-
 - Lets subclasses take charge of the actual object creation.
-
 - Encourages clients to use this method for object creation, making things clean and organized.
   
 <br>
 
 ### 💡 When to Use It?
+
 - When a class cannot anticipate the type of objects it must create.
-
 - When you're in the mood to let subclasses take charge of creating objects.
-
 - When a class wants to provide a way for clients to extend and customize the creation of objects without modifying the existing code.
 
 <br>
