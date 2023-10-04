@@ -19,13 +19,13 @@
 - [Prototype](/creational/prototype)
 - [Singleton](/creational/singleton)
 
-
+### 🧱 Structural Patterns
+- [Adapter](/structural/adapter)
 
 ### 🕹️ Behavioural Patterns
 
 
 
-### 🧱 Structural Patterns
 
 <br>
 
