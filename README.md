@@ -13,6 +13,7 @@
 ## Table of Contents 📜
 
 ### 🏗️ Creational Patterns
+
 - [Factory](/creational/factory)
 - [Abstract Factory](/creational/abstract_factory)
 - [Builder](/creational/builder)
@@ -20,10 +21,12 @@
 - [Singleton](/creational/singleton)
 
 ### 🧱 Structural Patterns
+
 - [Adapter](/structural/adapter)
 - [Bridge](structural/bridge)
 - [Composite](/structural/composite)
 - [Decorator](/structural/decorator)
+- [Facade](/structural/facade)
 
 ### 🕹️ Behavioural Patterns
 
