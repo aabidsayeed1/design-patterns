@@ -11,7 +11,7 @@ abstract class Shape {
 
 // Refined Abstraction
 class Circle extends Shape {
-  Circle(Color color) : super(color: color);
+  Circle({required Color color}) : super(color: color);
 
   @override
   void draw() {
@@ -20,7 +20,7 @@ class Circle extends Shape {
 }
 
 class Square extends Shape {
-  Square(Color color) : super(color: color);
+  Square({required Color color}) : super(color: color);
 
   @override
   void draw() {
