@@ -21,6 +21,7 @@
 
 ### 🧱 Structural Patterns
 - [Adapter](/structural/adapter)
+- [Bridge](structural/bridge)
 
 ### 🕹️ Behavioural Patterns
 
