@@ -11,7 +11,6 @@ The Proxy Design Pattern is a structural pattern that allows you to:
 ### When to Use It? 💡
 
 - **Lazy Initialization (Virtual Proxy):** Delay resource-intensive object creation until necessary.
-
 - **Access Control (Protection Proxy):** Restrict access to service objects based on client credentials for security.
 - **Local Execution of Remote Services (Remote Proxy):** Handle remote service interactions and network complexities.
 - **Logging Requests (Logging Proxy):** Maintain request logs before forwarding them to the service.
