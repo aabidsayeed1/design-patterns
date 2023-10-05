@@ -9,6 +9,17 @@ The Flyweight Design Pattern is a structural pattern that allows you to:
 
 <br>
 
+### Key Definitions 📖
+
+To better understand this pattern, familiarize yourself with these terms:
+
+- **Intrinsic State:** Constant data stored within an object, often referred to as the object's core properties. Other objects can read the intrinsic state, but it remains immutable within the object. In the Flyweight pattern, intrinsic state is stored in flyweights to optimize memory usage.
+
+- **Extrinsic State:** The unique properties or attributes of individual objects. These properties vary from one object to another and are not shared among instances. In the Flyweight pattern, extrinsic state is stored in the context of each object.
+
+
+<br>
+
 ### When to Use It? 💡
 
 Use the Flyweight pattern when:
