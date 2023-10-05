@@ -20,4 +20,7 @@ class MovingParticle {
   move() => particle.move(position, vector, speed);
 
   draw(Object canvas) => particle.draw(position, canvas);
+
+  String toString() =>
+      '$particle at $position moving with vector $vector at speed $speed';
 }

@@ -6,7 +6,7 @@ class Particle {
   final String color;
   final String sprite;
 
-  Particle({required this.color, required this.sprite});
+  Particle({this.color = 'red', this.sprite = 'bullet'});
 
   void move(Point<double> position, Point<double> vector, double speed) {
     print(
@@ -15,6 +15,8 @@ class Particle {
   }
 
   void draw(Point<double> position, Object canvas) {
-    print('drawing particle on canvas at $position');
+    print('drawing $this on canvas at $position');
   }
+
+  String toString() => '$color $sprite';
 }
