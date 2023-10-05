@@ -19,5 +19,5 @@ void main() {
 
   final totalCost = box2.cost;
 
-  print('Total Cost of the Box: \$${totalCost}');
+  print('Total Cost of the Box: \$$totalCost');
 }
