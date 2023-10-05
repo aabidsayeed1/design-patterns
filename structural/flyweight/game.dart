@@ -10,13 +10,13 @@ class Game {
   final List<Particle> particles = [];
   final List<MovingParticle> movingParticles = [];
 
-  void addParticle(
-    Point<double> coordinates,
-    Point<double> vector,
-    double speed,
-    String color,
-    String sprite,
-  ) {
+  void addParticle({
+    required Point<double> position,
+    required Point<double> vector,
+    required double speed,
+    required String color,
+    required String sprite,
+  }) {
     final particle = ParticleFactory().getParticle(
       color: color,
       sprite: sprite,
@@ -25,7 +25,7 @@ class Game {
 
     final movingParticle = MovingParticle(
       particle: particle,
-      coordinates: coordinates,
+      position: position,
       vector: vector,
       speed: speed,
     );

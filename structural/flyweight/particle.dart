@@ -8,13 +8,13 @@ class Particle {
 
   Particle({required this.color, required this.sprite});
 
-  void move(Point<double> coordinates, Point<double> vector, double speed) {
+  void move(Point<double> position, Point<double> vector, double speed) {
     print(
-      'moving particle from $coordinates to ${coordinates + vector} with speed $speed',
+      'moving particle from $position to ${position + vector} with speed $speed',
     );
   }
 
-  void draw(Point<double> coordinates, Object canvas) {
-    print('drawing particle on canvas at $coordinates');
+  void draw(Point<double> position, Object canvas) {
+    print('drawing particle on canvas at $position');
   }
 }
