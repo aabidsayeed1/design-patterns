@@ -1,5 +1,6 @@
 // proxy
 
+import 'third_party_youtube_class.dart';
 import 'youtube_service.dart';
 
 class CachedYouTubeClass implements YouTubeService {
@@ -10,7 +11,7 @@ class CachedYouTubeClass implements YouTubeService {
 
   final Set<String> _downloadedVideos = {};
 
-  CachedYouTubeClass(this._service);
+  CachedYouTubeClass() : this._service = ThirdPartyYouTubeClass();
 
   Future<List<String>> listVideos() async {
     if (_listCache == null) {

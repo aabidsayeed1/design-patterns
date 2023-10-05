@@ -14,9 +14,6 @@ class YouTubeManager {
 
   Future<void> renderListPanel() async {
     final videos = await _service.listVideos();
-    print('Rendering list panel with videos:');
-    for (final video in videos) {
-      print(video);
-    }
+    print('Rendering list panel with videos: $videos');
   }
 }
