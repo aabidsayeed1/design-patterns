@@ -28,6 +28,7 @@
 - [Decorator](/structural/decorator)
 - [Facade](/structural/facade)
 - [Flyweight](/structural/flyweight)
+- [Proxy](/structural/proxy)
 
 ### 🕹️ Behavioural Patterns
 
