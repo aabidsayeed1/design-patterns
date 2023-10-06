@@ -1,4 +1,4 @@
 abstract class Handler {
-  void setNextHandler(Handler handler);
+  void set nextHandler(Handler value);
   void handleRequest(String email, String password);
 }
