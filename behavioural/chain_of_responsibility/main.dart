@@ -1,17 +1,17 @@
+import 'base_handler.dart';
 import 'handlers/handlers.dart';
 import 'user.dart';
 
 void main() {
-  // Create the chain of responsibility with all handlers
-  final authenticationHandler = AuthenticationHandler();
-  final authorisationHandler = AuthorisationHandler();
-  final ipFilterHandler = IPFilterHandler();
-  final cachingHandler = CachingHandler();
+  //create chain
+  final List<BaseHandler> handlers = [
+    AuthenticationHandler(),
+    AuthorisationHandler(),
+    IPFilterHandler(),
+    CachingHandler(),
+  ];
 
-  final handler = authenticationHandler;
-  authenticationHandler.nextHandler = authorisationHandler;
-  authorisationHandler.nextHandler = ipFilterHandler;
-  ipFilterHandler.nextHandler = cachingHandler;
+  final BaseHandler handler = BaseHandler.createChain(handlers);
 
   //common variables
   String adminEmail = 'admin@gmail.com';
