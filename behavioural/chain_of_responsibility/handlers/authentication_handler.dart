@@ -1,7 +1,7 @@
 part of 'handlers.dart';
 
 class AuthenticationHandler extends BaseHandler {
-  List<String> users = ['admin@gmail.com, user@gmail.com'];
+  List<String> _users = ['admin@gmail.com, user@gmail.com'];
 
   @override
   void handleRequest(User user) {
@@ -14,6 +14,6 @@ class AuthenticationHandler extends BaseHandler {
   }
 
   bool _authenticateUser(String email, String password) {
-    return users.contains(email.toLowerCase()) && password.isNotEmpty;
+    return _users.contains(email.toLowerCase()) && password.isNotEmpty;
   }
 }

@@ -3,4 +3,5 @@ import '../user.dart';
 
 part 'authentication_handler.dart';
 part 'authorisation_handler.dart';
+part 'caching_handler.dart';
 part 'ip_filtering_handler.dart';
