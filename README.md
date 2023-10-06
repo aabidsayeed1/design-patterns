@@ -32,6 +32,7 @@
 
 ### 🕹️ Behavioural Patterns
 
+- [Chain of Responsibility](/behavioural/chain_of_responsibility)
 
 
 
