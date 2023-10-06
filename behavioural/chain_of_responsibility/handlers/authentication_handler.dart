@@ -2,10 +2,10 @@ part of 'handlers.dart';
 
 class AuthenticationHandler extends BaseHandler {
   @override
-  void handleRequest(String email, String password) {
-    if (_authenticateUser(email, password)) {
+  void handleRequest(User user) {
+    if (_authenticateUser(user.email, user.password)) {
       print("Authentication succeeded.");
-      super.handleRequest(email, password);
+      super.handleRequest(user);
     } else {
       print("Authentication failed. Access denied.");
     }

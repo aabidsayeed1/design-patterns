@@ -2,10 +2,10 @@ part of 'handlers.dart';
 
 class AuthorisationHandler extends BaseHandler {
   @override
-  void handleRequest(String email, String password) {
-    if (_authoriseUser(email)) {
+  void handleRequest(User user) {
+    if (_authoriseUser(user.email)) {
       print("Permission verification passed. Access granted.");
-      super.handleRequest(email, password);
+      super.handleRequest(user);
     } else {
       print("Insufficient permissions. Access denied.");
     }
