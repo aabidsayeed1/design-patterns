@@ -1,9 +1,17 @@
-class TextEditorMemento {
-  TextEditorMemento(this._content) : this._date = DateTime.now();
+// interface
+
+abstract class Memento {
+  Memento() : this._date = DateTime.now();
+
+  final DateTime _date;
+  DateTime get date => _date;
+}
+
+// concrete implementation
+
+class TextEditorMemento extends Memento {
+  TextEditorMemento(this._content);
 
   final String _content;
-  final DateTime _date;
-
   String get content => _content;
-  DateTime get date => _date;
 }
