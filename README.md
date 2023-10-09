@@ -34,6 +34,7 @@
 
 - [Chain of Responsibility](/behavioural/chain_of_responsibility)
 - [Command](/behavioural/command)
+- [Iterator](/behavioural/iterator)
 
 
 

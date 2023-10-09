@@ -47,4 +47,4 @@ The Command Pattern comes to the rescue. You can create command objects for each
 ## Example Source 📚
 
 The example is adapted from Refactoring Guru - an excellent resource for learning about software design patterns. <br>
-https://refactoring.guru/design-patterns/commandx
+https://refactoring.guru/design-patterns/command
