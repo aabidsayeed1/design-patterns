@@ -12,7 +12,11 @@ class TextEditor {
 
   TextEditorMemento save() => TextEditorMemento(_content);
 
-  void restore(TextEditorMemento memento) => _content = memento.content;
+  void restore(Memento memento) {
+    memento is TextEditorMemento
+        ? _content = memento.content
+        : print('unknown memento class');
+  }
 
   @override
   String toString() => _content;
