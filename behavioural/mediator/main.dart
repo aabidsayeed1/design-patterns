@@ -1,4 +1,4 @@
-import 'authentication_dialog.dart';
+import 'mediator.dart';
 
 void main() {
   final dialog = AuthenticationDialog();
