@@ -47,17 +47,17 @@ class AuthenticationDialog implements Mediator {
   }
 
   void _onTextboxKeyPressed(Textbox sender) {
-    print('key pressed on textbox ${sender.placeholder}');
+    print('\nkey pressed on textbox ${sender.placeholder}');
   }
 
   void _onTextboxClicked(Textbox sender) {
-    print('textbox ${sender.placeholder} clicked on');
+    print('\ntextbox ${sender.placeholder} clicked on');
   }
 
   void _onCheckboxClicked() {
     if (loginOrRegisterCheckbox == null) return;
 
-    print('Checkbox clicked');
+    print('\nCheckbox clicked');
 
     if (loginOrRegisterCheckbox!.checked) {
       title = "Log In";
