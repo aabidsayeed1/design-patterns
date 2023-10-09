@@ -30,13 +30,11 @@ void main() {
 
   //Send spam to anna's friends
   print('Send spam to Anna\'s friends');
-  // Profile anna = profiles[0];
-  // spammer.sendSpamToFriends(anna.id, "Hey, friends!");
+  spammer.sendSpamToFriends(anna.id, "Hey, LinkedIn friends!");
 
   //Send spam to Brandon's coworkers
   print('\n\nSend spam to Brandon\'s coworkers');
-  // Profile brandon = profiles[1];
-  // spammer.sendSpamToCoworkers(brandon.id, "Hey, coworkers!");
+  spammer.sendSpamToCoworkers(brandon.id, "Hey, LinkedIn coworkers!");
 }
 
 List<Profile> get mockProfiles {

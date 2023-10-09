@@ -1,22 +1,22 @@
 part of 'profile_iterator.dart';
 
-class FacebookIterator implements ProfileIterator {
-  final Facebook facebook;
+class LinkedInIterator implements ProfileIterator {
+  final LinkedIn linkedIn;
   final String profileId;
   final ContactType type;
 
   int currentPosition = 0;
   List<Profile> cache = [];
 
-  FacebookIterator({
-    required this.facebook,
+  LinkedInIterator({
+    required this.linkedIn,
     required this.profileId,
     required this.type,
   });
 
   void lazyInit() {
     if (cache.isEmpty) {
-      cache = facebook.socialGraphRequest(
+      cache = linkedIn.requestConnectionsList(
         profileId: profileId,
         contactType: type,
       );
