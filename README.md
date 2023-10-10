@@ -2,6 +2,7 @@
 
  This project is a journey into the world of software design patterns, where we explore, understand, and implement these powerful solutions to common programming challenges using the Dart programming language.
 
+<br>
 
 ### What Are Design Patterns? 🧩
 - Established solutions to common problems in software development
@@ -40,6 +41,7 @@
 - [Observer](/behavioural/observer)
 - [State](/behavioural/state)
 - [Strategy](/behavioural/strategy)
+- [Template](/behavioural/template)
 
 
 <br>
