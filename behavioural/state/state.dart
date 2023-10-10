@@ -9,4 +9,7 @@ abstract class State {
 
   void publish();
   void render();
+
+  void reviewFailed() {}
+  void publicationExpired() {}
 }

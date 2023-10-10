@@ -14,4 +14,7 @@ class Document {
 
   void publish() => _state.publish();
   void render() => _state.render();
+
+  void reviewFailed() => _state.reviewFailed();
+  void publicationExpired() => _state.publicationExpired();
 }
