@@ -23,5 +23,13 @@ class Moderation extends State {
   }
 
   @override
-  void render() {}
+  void render() {
+    if (currentUser.isAdmin ||
+        currentUser.isAuthor ||
+        currentUser.isModerator) {
+      print("Rendering the Moderation document.");
+    } else {
+      print("You are not authorized to render this document.");
+    }
+  }
 }

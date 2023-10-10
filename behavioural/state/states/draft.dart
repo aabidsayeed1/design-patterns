@@ -15,5 +15,11 @@ class Draft extends State {
   }
 
   @override
-  void render() {}
+  void render() {
+    if (currentUser.isAdmin || currentUser.isAuthor) {
+      print("Rendering the Draft document.");
+    } else {
+      print("You are not authorized to render this document.");
+    }
+  }
 }

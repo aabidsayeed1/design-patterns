@@ -14,5 +14,7 @@ class Published extends State {
   }
 
   @override
-  void render() {}
+  void render() {
+    print("Rendering the Published document.");
+  }
 }
