@@ -30,9 +30,17 @@ This approach eliminates code duplication, simplifies maintenance, and promotes 
 <br>
 
 
+
 ## Pattern Structure 🧩
 
-- **Abstract Class (DocumentProcessor):** Declares the template method that contains the algorithm's structure, including calls to abstract and optional methods.
+- **Abstract Class (DocumentProcessor):** The abstract class serves as the foundation of the pattern, containing the follwing methods:
+
+    - **Template Method:** Defines  the skeleton of the algorithm with calls to various steps, which can be abstract, optional, or with default implementations.
+
+    - **Abstract Methods:** Represent specific actions for different variations of the algorithm. These must be implemented by concrete subclasses.
+
+    - **Optional Methods (Hooks):** Steps of the algorithm with default implementations, allowing subclasses to override them if needed.
+
 
 - **Concrete Classes:** Subclasses that implement specific steps of the algorithm, overriding abstract methods as needed. They do not modify the template method itself.
 
