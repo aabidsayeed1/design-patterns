@@ -1,5 +1,9 @@
 import 'dart:io';
 
+part 'csv_data_miner.dart';
+part 'doc_data_miner.dart';
+part 'pdf_data_miner.dart';
+
 abstract class DataMiner {
   void mine(String path) {
     File file = openFile(path);
