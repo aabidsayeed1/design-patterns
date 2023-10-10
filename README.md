@@ -36,7 +36,7 @@
 - [Command](/behavioural/command)
 - [Iterator](/behavioural/iterator)
 - [Mediator](/behavioural/mediator)
-- [Momento](/behavioural/memento)
+- [Memento](/behavioural/memento)
 - [Observer](/behavioural/observer)
 - [State](/behavioural/state)
 - [Strategy](/behavioural/strategy)
