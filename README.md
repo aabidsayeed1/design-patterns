@@ -38,6 +38,7 @@
 - [Mediator](/behavioural/mediator)
 - [Momento](/behavioural/memento)
 - [Observer](/behavioural/observer)
+- [State](/behavioural/state)
 
 
 <br>
