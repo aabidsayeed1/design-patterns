@@ -39,6 +39,7 @@
 - [Momento](/behavioural/memento)
 - [Observer](/behavioural/observer)
 - [State](/behavioural/state)
+- [Strategy](/behavioural/strategy)
 
 
 <br>
