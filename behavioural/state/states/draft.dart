@@ -11,6 +11,8 @@ class Draft extends State {
     } else if (currentUser.isAuthor) {
       print("Moving from Draft to Moderation state.");
       document.setState(Moderation(document: document));
+    } else {
+      print('You are not authorized to publish this document');
     }
   }
 
