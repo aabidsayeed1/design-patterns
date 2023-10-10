@@ -37,6 +37,7 @@
 - [Iterator](/behavioural/iterator)
 - [Mediator](/behavioural/mediator)
 - [Momento](/behavioural/memento)
+- [Observer](/behavioural/observer)
 
 
 <br>
