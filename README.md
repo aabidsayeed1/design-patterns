@@ -42,6 +42,7 @@
 - [State](/behavioural/state)
 - [Strategy](/behavioural/strategy)
 - [Template](/behavioural/template)
+- [Visitor](/behavioural/visitor)
 
 
 <br>
