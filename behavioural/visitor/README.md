@@ -1,4 +1,4 @@
-# Visitor Design Pattern 🌐
+# Visitor Design Pattern 🚶‍♂️
 
 ### What is It? 🛠️
 
@@ -19,7 +19,7 @@ The Visitor Design Pattern is a behavioral design pattern that:
 <br>
 
 
-## Example - Geographic Information Export 🗺️
+## Example - Geographic Information Export 🌍
 
 Imagine developing a geographic information application that works with a graph of various entities like cities, industries, and sightseeing areas. You need to export this graph to different formats without altering the existing node classes. The Visitor Pattern allows you to create an external visitor class for exporting data into XML format and other formats in the future.
 
